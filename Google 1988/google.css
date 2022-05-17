@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0 50px;
+    box-sizing: border-box;
+  }
+  .container {
+    text-align: center;
+    margin: 0 100px;
+  }
+  .content{
+      background-color: lightgray;
+      text-align: center;
+  }
+  .content p{
+      margin: 0;
+      padding: 0;
+  }
+  .card_box{
+      display: inline;
+      display: flex;
+      float: left;
+      margin-top: 1px;
+      text-align: center;
+  }
+  .card_box .box1 ul li{
+      list-style-type: none;
+  }
+  .card_box .box2 ul li{
+    list-style-type: none;
+   }
+  .card_box .box1{
+      background-color: #7ee5da;
+      width: 570px;
+      margin-right: 5px;
+  }
+  .card_box .box2{
+      background-color: #70CCC2;
+      width: 285px;
+      margin-right: 5px;
+  }
+  .card_box .box3{
+      background-color: #62B3AA;
+      width: 570px;
+      margin-right: 0;
+  }
+  footer{
+      text-align: center;
+  }
